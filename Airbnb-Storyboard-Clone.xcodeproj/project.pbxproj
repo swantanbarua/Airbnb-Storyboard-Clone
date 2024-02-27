@@ -57,10 +57,9 @@
 			isa = PBXGroup;
 			children = (
 				5E7BD7312B8E43CF00E5930C /* Delegates */,
-				5E7BD7202B8E407200E5930C /* ViewController.swift */,
+				5E7BD7332B8E444300E5930C /* View */,
 				5E7BD7302B8E43BE00E5930C /* Storyboards */,
-				5E7BD7252B8E407600E5930C /* Assets.xcassets */,
-				5E7BD72A2B8E407600E5930C /* Info.plist */,
+				5E7BD7322B8E443500E5930C /* Resources */,
 			);
 			path = "Airbnb-Storyboard-Clone";
 			sourceTree = "<group>";
@@ -81,6 +80,23 @@
 				5E7BD71E2B8E407200E5930C /* SceneDelegate.swift */,
 			);
 			path = Delegates;
+			sourceTree = "<group>";
+		};
+		5E7BD7322B8E443500E5930C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5E7BD7252B8E407600E5930C /* Assets.xcassets */,
+				5E7BD72A2B8E407600E5930C /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		5E7BD7332B8E444300E5930C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5E7BD7202B8E407200E5930C /* ViewController.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
