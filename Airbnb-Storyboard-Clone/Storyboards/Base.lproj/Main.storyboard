@@ -9,7 +9,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Item-->
+        <!--Trips-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Airbnb_Storyboard_Clone" customModuleProvider="target" sceneMemberID="viewController">
@@ -19,13 +19,13 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="R9C-r9-36O"/>
+                    <tabBarItem key="tabBarItem" title="Trips" id="R9C-r9-36O"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="502" y="-437"/>
         </scene>
-        <!--Item 2-->
+        <!--Wishlists-->
         <scene sceneID="kDc-BR-v8o">
             <objects>
                 <viewController id="N6X-X7-C0Y" sceneMemberID="viewController">
@@ -35,13 +35,13 @@
                         <viewLayoutGuide key="safeArea" id="8du-fh-mVW"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item 2" id="bQf-jN-wVC"/>
+                    <tabBarItem key="tabBarItem" title="Wishlists" id="bQf-jN-wVC"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="eR5-mG-LFu" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-390" y="-72"/>
         </scene>
-        <!--Item-->
+        <!--Profile-->
         <scene sceneID="fwc-HS-Jee">
             <objects>
                 <viewController id="ItZ-CE-0MZ" sceneMemberID="viewController">
@@ -51,13 +51,13 @@
                         <viewLayoutGuide key="safeArea" id="n1e-2Y-TR7"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="JPV-z7-XdM"/>
+                    <tabBarItem key="tabBarItem" title="Profile" id="JPV-z7-XdM"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="QzT-25-t1B" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="502" y="246"/>
         </scene>
-        <!--Item 1-->
+        <!--Explore-->
         <scene sceneID="GEK-5S-a3D">
             <objects>
                 <viewController id="w5b-p5-z2d" sceneMemberID="viewController">
@@ -67,13 +67,13 @@
                         <viewLayoutGuide key="safeArea" id="195-fc-EQS"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item 1" id="AkS-ap-Xcv"/>
+                    <tabBarItem key="tabBarItem" title="Explore" id="AkS-ap-Xcv"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Iwg-gQ-Axe" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-389" y="-746"/>
         </scene>
-        <!--Item-->
+        <!--Inbox-->
         <scene sceneID="kIg-Sd-VhW">
             <objects>
                 <viewController id="trX-wC-wKe" sceneMemberID="viewController">
@@ -83,7 +83,7 @@
                         <viewLayoutGuide key="safeArea" id="u56-E9-BPb"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="JnI-Gm-kSZ"/>
+                    <tabBarItem key="tabBarItem" title="Inbox" id="JnI-Gm-kSZ"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WoB-qa-8Kk" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
