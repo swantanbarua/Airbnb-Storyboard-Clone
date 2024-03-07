@@ -45,6 +45,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5E1AFBA22B9A220700174D52 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5E1AFBA32B9A221C00174D52 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		5E1AFBA42B9A223D00174D52 /* MVVM */ = {
+			isa = PBXGroup;
+			children = (
+				5E1AFBA22B9A220700174D52 /* Model */,
+				5E7BD7332B8E444300E5930C /* View */,
+				5E1AFBA32B9A221C00174D52 /* ViewModel */,
+			);
+			path = MVVM;
+			sourceTree = "<group>";
+		};
 		5E7BD7102B8E407200E5930C = {
 			isa = PBXGroup;
 			children = (
@@ -64,8 +88,8 @@
 		5E7BD71B2B8E407200E5930C /* Airbnb-Storyboard-Clone */ = {
 			isa = PBXGroup;
 			children = (
+				5E1AFBA42B9A223D00174D52 /* MVVM */,
 				5E7BD7312B8E43CF00E5930C /* Delegates */,
-				5E7BD7332B8E444300E5930C /* View */,
 				5E7BD7302B8E43BE00E5930C /* Storyboards */,
 				5E7BD7322B8E443500E5930C /* Resources */,
 			);
