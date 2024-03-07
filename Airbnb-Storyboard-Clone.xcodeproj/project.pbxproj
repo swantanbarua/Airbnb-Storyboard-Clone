@@ -69,6 +69,21 @@
 			path = MVVM;
 			sourceTree = "<group>";
 		};
+		5E1AFBA52B9A261200174D52 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				5E1AFBA62B9A263C00174D52 /* Extensions */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		5E1AFBA62B9A263C00174D52 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		5E7BD7102B8E407200E5930C = {
 			isa = PBXGroup;
 			children = (
@@ -91,6 +106,7 @@
 				5E1AFBA42B9A223D00174D52 /* MVVM */,
 				5E7BD7312B8E43CF00E5930C /* Delegates */,
 				5E7BD7302B8E43BE00E5930C /* Storyboards */,
+				5E1AFBA52B9A261200174D52 /* Utilities */,
 				5E7BD7322B8E443500E5930C /* Resources */,
 			);
 			path = "Airbnb-Storyboard-Clone";
