@@ -9,6 +9,14 @@ import UIKit
 
 extension UIView {
     
+    /**
+     Makes a UIView circular by setting its corner radius based on the provided width and height.
+     If the width and height are equal, the view is already circular and no changes are applied.
+     - Parameters:
+     - view: The UIView to make circular.
+     - width: The width of the view.
+     - height: The height of the view.
+     */
     func makeCircular(
         view: UIView,
         width: CGFloat,
@@ -22,6 +30,15 @@ extension UIView {
         }
     }
     
+    /**
+     Applies a circular border to a UIView with the specified border width and color.
+     - Parameters:
+     - view: The UIView to apply the circular border.
+     - width: The width of the view.
+     - height: The height of the view.
+     - borderWidth: The width of the border.
+     - borderColor: The color of the border.
+     */
     func applyCircularBorder(
         view: UIView,
         width: CGFloat,
@@ -33,4 +50,5 @@ extension UIView {
         view.layer.borderWidth = borderWidth
         view.layer.borderColor = borderColor
     }
+    
 }
