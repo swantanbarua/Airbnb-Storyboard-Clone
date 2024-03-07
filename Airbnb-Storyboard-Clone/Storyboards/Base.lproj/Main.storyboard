@@ -65,8 +65,22 @@
                     <view key="view" contentMode="scaleToFill" id="B0P-Qh-EQg">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="esW-XQ-Rgr" userLabel="SearchAndSettingsView">
+                                <rect key="frame" x="15" y="59" width="363" height="100"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="2vF-Pv-rBi"/>
+                                </constraints>
+                            </view>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="195-fc-EQS"/>
                         <color key="backgroundColor" name="ContrastPalette"/>
+                        <constraints>
+                            <constraint firstItem="195-fc-EQS" firstAttribute="trailing" secondItem="esW-XQ-Rgr" secondAttribute="trailing" constant="15" id="QfZ-OK-4dd"/>
+                            <constraint firstItem="esW-XQ-Rgr" firstAttribute="top" secondItem="195-fc-EQS" secondAttribute="top" id="XIA-pn-6Y5"/>
+                            <constraint firstItem="esW-XQ-Rgr" firstAttribute="leading" secondItem="195-fc-EQS" secondAttribute="leading" constant="15" id="qdt-Hk-kFH"/>
+                        </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Explore" id="AkS-ap-Xcv"/>
                 </viewController>
