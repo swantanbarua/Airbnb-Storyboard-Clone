@@ -66,11 +66,29 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="esW-XQ-Rgr" userLabel="SearchAndSettingsView">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="esW-XQ-Rgr" userLabel="SearchAndFilterView">
                                 <rect key="frame" x="15" y="59" width="363" height="100"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ed7-g1-CUH" userLabel="SearchView">
+                                        <rect key="frame" x="5" y="5" width="290.33333333333331" height="90"/>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HRY-gT-z5N" userLabel="FilterView">
+                                        <rect key="frame" x="300.33333333333331" y="5" width="57.666666666666686" height="90"/>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                    </view>
+                                </subviews>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
+                                    <constraint firstItem="HRY-gT-z5N" firstAttribute="leading" secondItem="ed7-g1-CUH" secondAttribute="trailing" constant="5" id="0GV-wt-Pyz"/>
+                                    <constraint firstItem="ed7-g1-CUH" firstAttribute="leading" secondItem="esW-XQ-Rgr" secondAttribute="leading" constant="5" id="1Od-IT-0uZ"/>
                                     <constraint firstAttribute="height" constant="100" id="2vF-Pv-rBi"/>
+                                    <constraint firstAttribute="bottom" secondItem="ed7-g1-CUH" secondAttribute="bottom" constant="5" id="DFn-48-k0n"/>
+                                    <constraint firstItem="HRY-gT-z5N" firstAttribute="top" secondItem="esW-XQ-Rgr" secondAttribute="top" constant="5" id="KTW-ob-8sM"/>
+                                    <constraint firstAttribute="trailing" secondItem="HRY-gT-z5N" secondAttribute="trailing" constant="5" id="RLK-bV-ssa"/>
+                                    <constraint firstItem="ed7-g1-CUH" firstAttribute="top" secondItem="esW-XQ-Rgr" secondAttribute="top" constant="5" id="SOH-Tl-7Jx"/>
+                                    <constraint firstItem="ed7-g1-CUH" firstAttribute="width" secondItem="esW-XQ-Rgr" secondAttribute="width" multiplier="0.8" id="VXc-oS-TCq"/>
+                                    <constraint firstAttribute="bottom" secondItem="HRY-gT-z5N" secondAttribute="bottom" constant="5" id="nSE-R7-rxg"/>
                                 </constraints>
                             </view>
                         </subviews>
@@ -86,7 +104,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Iwg-gQ-Axe" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-389" y="-746"/>
+            <point key="canvasLocation" x="-390.07633587786256" y="-746.47887323943667"/>
         </scene>
         <!--InboxVC-->
         <scene sceneID="kIg-Sd-VhW">
