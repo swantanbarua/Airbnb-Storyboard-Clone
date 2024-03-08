@@ -79,12 +79,34 @@
                                                     <constraint firstAttribute="width" constant="60" id="xn2-pW-EGn"/>
                                                 </constraints>
                                             </imageView>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KFX-Qk-TGu">
+                                                <rect key="frame" x="80.000000000000014" y="10.000000000000002" width="177.33333333333337" height="31.666666666666671"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Where to?" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lbz-fH-wcy">
+                                                        <rect key="frame" x="0.0" y="4" width="177.33333333333334" height="23.666666666666668"/>
+                                                        <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="16"/>
+                                                        <color key="textColor" name="ContrastPaletteLabel"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                <constraints>
+                                                    <constraint firstItem="Lbz-fH-wcy" firstAttribute="leading" secondItem="KFX-Qk-TGu" secondAttribute="leading" id="1Lu-it-map"/>
+                                                    <constraint firstItem="Lbz-fH-wcy" firstAttribute="top" secondItem="KFX-Qk-TGu" secondAttribute="top" constant="4" id="4gX-rF-ikL"/>
+                                                    <constraint firstAttribute="bottom" secondItem="Lbz-fH-wcy" secondAttribute="bottom" constant="4" id="CgP-Dd-zDJ"/>
+                                                    <constraint firstAttribute="trailing" secondItem="Lbz-fH-wcy" secondAttribute="trailing" id="myP-O4-sED"/>
+                                                </constraints>
+                                            </view>
                                         </subviews>
                                         <color key="backgroundColor" name="UniversalMonoColor"/>
                                         <constraints>
+                                            <constraint firstAttribute="trailing" secondItem="KFX-Qk-TGu" secondAttribute="trailing" constant="15" id="0Lg-aL-him"/>
+                                            <constraint firstItem="KFX-Qk-TGu" firstAttribute="top" secondItem="ed7-g1-CUH" secondAttribute="top" constant="10" id="8qB-0i-kDV"/>
+                                            <constraint firstItem="KFX-Qk-TGu" firstAttribute="leading" secondItem="t2Q-3o-5Uq" secondAttribute="trailing" constant="10" id="N8z-wu-mbk"/>
                                             <constraint firstItem="t2Q-3o-5Uq" firstAttribute="top" secondItem="ed7-g1-CUH" secondAttribute="top" constant="15" id="cov-jk-Jmr"/>
                                             <constraint firstItem="t2Q-3o-5Uq" firstAttribute="leading" secondItem="ed7-g1-CUH" secondAttribute="leading" constant="10" id="gOz-xh-5Bx"/>
                                             <constraint firstAttribute="bottom" secondItem="t2Q-3o-5Uq" secondAttribute="bottom" constant="15" id="rIQ-pp-CmT"/>
+                                            <constraint firstItem="KFX-Qk-TGu" firstAttribute="height" secondItem="ed7-g1-CUH" secondAttribute="height" multiplier="0.45" id="tbV-zW-kGM"/>
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HRY-gT-z5N" userLabel="FilterView">
