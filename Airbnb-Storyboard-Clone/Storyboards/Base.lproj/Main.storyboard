@@ -74,7 +74,7 @@
                                         <subviews>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="magnifyingglass" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="t2Q-3o-5Uq">
                                                 <rect key="frame" x="10" y="15.999999999999996" width="60" height="38.333333333333329"/>
-                                                <color key="tintColor" name="ContrastPaletteLabel"/>
+                                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="60" id="xn2-pW-EGn"/>
                                                 </constraints>
@@ -121,7 +121,7 @@
                             </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="195-fc-EQS"/>
-                        <color key="backgroundColor" name="ContrastPalette"/>
+                        <color key="backgroundColor" name="ContrastPaletteBackground"/>
                         <constraints>
                             <constraint firstItem="195-fc-EQS" firstAttribute="trailing" secondItem="esW-XQ-Rgr" secondAttribute="trailing" constant="15" id="QfZ-OK-4dd"/>
                             <constraint firstItem="esW-XQ-Rgr" firstAttribute="top" secondItem="195-fc-EQS" secondAttribute="top" id="XIA-pn-6Y5"/>
@@ -178,11 +178,8 @@
     </scenes>
     <resources>
         <image name="magnifyingglass" catalog="system" width="128" height="117"/>
-        <namedColor name="ContrastPalette">
+        <namedColor name="ContrastPaletteBackground">
             <color red="0.96078431372549022" green="0.96078431372549022" blue="0.96078431372549022" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-        </namedColor>
-        <namedColor name="ContrastPaletteLabel">
-            <color red="0.23529411764705882" green="0.23529411764705882" blue="0.23529411764705882" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
         </namedColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
