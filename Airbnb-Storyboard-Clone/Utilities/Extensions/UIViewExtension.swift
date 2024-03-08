@@ -10,20 +10,28 @@ import UIKit
 extension UIView {
     
     /**
-     Makes a UIView circular by setting its corner radius based on the provided width and height.
-     If the width and height are equal, the view is already circular and no changes are applied.
+     Makes the view circular by adjusting its corner radius based on the provided width and height.
+     
+     This function checks if the provided width and height are equal, indicating that the view can be made circular.
+     If the width and height are not equal, it means the view cannot be made circular, so the function returns without making any changes.
+     
+     If the width and height are equal, the function sets the corner radius of the view's layer to half of the height,
+     effectively making the view circular.
+     
      - Parameters:
-     - view: The UIView to make circular.
-     - width: The width of the view.
-     - height: The height of the view.
+        - width: The width of the view.
+        - height: The height of the view.
      */
     func makeCircular(
         width: CGFloat,
         height: CGFloat
     ) {
-        if height == width {
+        // Check if the view can be made circular (i.e., width and height are equal)
+        if height != width {
+            // If width and height are not equal, the view cannot be made circular, so return without making any changes
             return
         } else {
+            // Set the corner radius to half of the height to make the view circular
             self.layer.cornerRadius = height / 2
             self.clipsToBounds = true
         }
