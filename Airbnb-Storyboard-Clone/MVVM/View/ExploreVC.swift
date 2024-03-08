@@ -11,12 +11,14 @@ class ExploreVC: UIViewController {
 
     // MARK: - IBOUTLETS
     
+    @IBOutlet weak var searchView: UIView!
     @IBOutlet var filterCircularView: UIView!
     
     // MARK: - VIEWCONTROLLER LIFECYCLE METHODS
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        searchView.layer.cornerRadius = 30
         makeCircularFilterView()
     }
 }
