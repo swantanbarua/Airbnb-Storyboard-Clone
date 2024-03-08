@@ -18,15 +18,14 @@ extension UIView {
      - height: The height of the view.
      */
     func makeCircular(
-        view: UIView,
         width: CGFloat,
         height: CGFloat
     ) {
         if height == width {
             return
         } else {
-            view.layer.cornerRadius = height / 2
-            view.clipsToBounds = true
+            self.layer.cornerRadius = height / 2
+            self.clipsToBounds = true
         }
     }
     
@@ -40,15 +39,14 @@ extension UIView {
      - borderColor: The color of the border.
      */
     func applyCircularBorder(
-        view: UIView,
         width: CGFloat,
         height: CGFloat,
         borderWidth: CGFloat,
         borderColor: CGColor
     ) {
-        view.makeCircular(view: view, width: width, height: height)
-        view.layer.borderWidth = borderWidth
-        view.layer.borderColor = borderColor
+        self.makeCircular(width: width, height: height)
+        self.layer.borderWidth = borderWidth
+        self.layer.borderColor = borderColor
     }
     
 }
