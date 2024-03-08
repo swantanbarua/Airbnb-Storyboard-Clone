@@ -36,9 +36,9 @@ extension ExploreVC {
      */
     func makeCircularFilterView() {
         filterCircularView.applyCircularBorder(
-            width: 50,
-            height: 50,
-            borderWidth: 1,
+            width: 60,
+            height: 60,
+            borderWidth: 2,
             borderColor: UIColor(named: contrastPaletteBackground)?.cgColor ?? UIColor(.accentColor).cgColor
         )
     }

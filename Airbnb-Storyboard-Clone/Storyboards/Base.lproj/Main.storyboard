@@ -74,18 +74,18 @@
                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HRY-gT-z5N" userLabel="FilterView">
-                                        <rect key="frame" x="300.33333333333331" y="5" width="57.666666666666686" height="90"/>
+                                        <rect key="frame" x="295.33333333333331" y="0.0" width="67.666666666666686" height="100"/>
                                         <subviews>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bIo-Gb-9Zl" userLabel="FilterCircularView">
-                                                <rect key="frame" x="4" y="20" width="50" height="50"/>
+                                                <rect key="frame" x="4" y="20" width="60" height="60"/>
                                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                 <constraints>
-                                                    <constraint firstAttribute="width" constant="50" id="Mos-7a-0bg"/>
-                                                    <constraint firstAttribute="height" constant="50" id="aaN-vf-MH3"/>
+                                                    <constraint firstAttribute="width" constant="60" id="Mos-7a-0bg"/>
+                                                    <constraint firstAttribute="height" constant="60" id="aaN-vf-MH3"/>
                                                 </constraints>
                                             </view>
                                         </subviews>
-                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
                                             <constraint firstItem="bIo-Gb-9Zl" firstAttribute="centerY" secondItem="HRY-gT-z5N" secondAttribute="centerY" id="as2-cN-NA6"/>
                                             <constraint firstItem="bIo-Gb-9Zl" firstAttribute="centerX" secondItem="HRY-gT-z5N" secondAttribute="centerX" id="jiG-AE-W1i"/>
@@ -94,15 +94,15 @@
                                 </subviews>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
-                                    <constraint firstItem="HRY-gT-z5N" firstAttribute="leading" secondItem="ed7-g1-CUH" secondAttribute="trailing" constant="5" id="0GV-wt-Pyz"/>
+                                    <constraint firstItem="HRY-gT-z5N" firstAttribute="leading" secondItem="ed7-g1-CUH" secondAttribute="trailing" id="0GV-wt-Pyz"/>
                                     <constraint firstItem="ed7-g1-CUH" firstAttribute="leading" secondItem="esW-XQ-Rgr" secondAttribute="leading" constant="5" id="1Od-IT-0uZ"/>
                                     <constraint firstAttribute="height" constant="100" id="2vF-Pv-rBi"/>
                                     <constraint firstAttribute="bottom" secondItem="ed7-g1-CUH" secondAttribute="bottom" constant="5" id="DFn-48-k0n"/>
-                                    <constraint firstItem="HRY-gT-z5N" firstAttribute="top" secondItem="esW-XQ-Rgr" secondAttribute="top" constant="5" id="KTW-ob-8sM"/>
-                                    <constraint firstAttribute="trailing" secondItem="HRY-gT-z5N" secondAttribute="trailing" constant="5" id="RLK-bV-ssa"/>
+                                    <constraint firstItem="HRY-gT-z5N" firstAttribute="top" secondItem="esW-XQ-Rgr" secondAttribute="top" id="KTW-ob-8sM"/>
+                                    <constraint firstAttribute="trailing" secondItem="HRY-gT-z5N" secondAttribute="trailing" id="RLK-bV-ssa"/>
                                     <constraint firstItem="ed7-g1-CUH" firstAttribute="top" secondItem="esW-XQ-Rgr" secondAttribute="top" constant="5" id="SOH-Tl-7Jx"/>
                                     <constraint firstItem="ed7-g1-CUH" firstAttribute="width" secondItem="esW-XQ-Rgr" secondAttribute="width" multiplier="0.8" id="VXc-oS-TCq"/>
-                                    <constraint firstAttribute="bottom" secondItem="HRY-gT-z5N" secondAttribute="bottom" constant="5" id="nSE-R7-rxg"/>
+                                    <constraint firstAttribute="bottom" secondItem="HRY-gT-z5N" secondAttribute="bottom" id="nSE-R7-rxg"/>
                                 </constraints>
                             </view>
                         </subviews>
