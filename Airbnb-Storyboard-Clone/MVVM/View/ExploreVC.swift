@@ -54,8 +54,8 @@ extension ExploreVC {
         filterCircularView.applyCircularBorder(
             width: 60,
             height: 60,
-            borderWidth: 2,
-            borderColor: UIColor(named: contrastPaletteBackground)?.cgColor ?? UIColor(.accentColor).cgColor
+            borderWidth: 0.5,
+            borderColor: UIColor(named: contrastPaletteLabel)?.cgColor ?? UIColor(.accentColor).cgColor
         )
     }
     
