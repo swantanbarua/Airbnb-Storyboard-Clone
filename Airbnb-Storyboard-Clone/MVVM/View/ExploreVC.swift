@@ -18,12 +18,26 @@ class ExploreVC: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        searchView.layer.cornerRadius = 30
-        makeCircularFilterView()
+        initialUISetup()
     }
 }
 
 // MARK: - UI MODIFICATIONS
+
+extension ExploreVC {
+    
+    /**
+     Sets up the initial UI configurations for the Explore view controller.
+     
+     This function calls other helper functions to apply specific UI configurations
+     such as rounding the corners of the search view and making the filter view circular.
+     */
+    func initialUISetup() {
+        applyCornerRadiusToSearchView()
+        makeCircularFilterView()
+    }
+}
+
 extension ExploreVC {
     
     /**
@@ -43,5 +57,16 @@ extension ExploreVC {
             borderWidth: 2,
             borderColor: UIColor(named: contrastPaletteBackground)?.cgColor ?? UIColor(.accentColor).cgColor
         )
+    }
+    
+    /**
+     Applies a corner radius to the search view.
+     
+     This function sets the corner radius of the search view to the specified value,
+     giving it rounded corners.
+     - Parameter cornerRadius: The corner radius value to be applied to the search view.
+     */
+    func applyCornerRadiusToSearchView() {
+        searchView.applyCornerRadius(cornerRadius: 30)
     }
 }

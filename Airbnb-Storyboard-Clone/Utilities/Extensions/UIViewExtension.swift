@@ -57,4 +57,12 @@ extension UIView {
         self.layer.borderColor = borderColor
     }
     
+    /**
+     Applies corner radius to the view's layer.
+     - Parameter cornerRadius: The corner radius value to be applied to the view's layer.
+     */
+    func applyCornerRadius(cornerRadius: CGFloat) {
+        self.layer.cornerRadius = cornerRadius
+    }
+
 }
